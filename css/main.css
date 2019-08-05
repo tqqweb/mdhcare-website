@@ -1291,13 +1291,110 @@ opacity: 1; /*结尾状态 不透明*/
 
 } 
 .swiper-slide{
+    /* background: url('../img/bg/boss.jpg'); */
+    height: 460px;
     width: 100%;
     display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
     display: -moz-box; /* 老版本语法: Firefox (buggy) */
     display: -ms-flexbox; /* 混合版本语法: IE 10 */
     display: -webkit-flex; /* 新版本语法: Chrome 21+ */
     display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
-
+}
+.swiper-slide .img1{
+    background: url('../img/bg/boss.jpg') no-repeat;
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .swiper-word{
+    position: relative;
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .swiper-word .tomorrow{
+    font-size: 18px;
+    color:white;
+    position: absolute;
+    top:36%;
+    left: 24%;
+}
+.swiper-slide .swiper-word .lines{
+    width: 60px;
+    height: 3px;
+    background:rgba(132,203,193,1); 
+    position: absolute;
+    top:45%;
+    left: 24%;
+}
+.swiper-slide .swiper-word .boss{
+    width: 80px;
+    height: 20px;
+    background:rgba(132,203,193,1); 
+    color:white;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top:65%;
+    left: 24%;
+}
+.swiper-slide .img2{
+    background: url('../img/bg/关于我们.jpg') no-repeat;
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img3{
+    background: url('../img/bg/合伙人.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img4{
+    background: url('../img/bg/合作机构.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img5{
+    background: url('../img/bg/年纪轻轻.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img6{
+    background: url('../img/bg/心血管.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img7{
+    background: url('../img/bg/渠道服务.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img8{
+    background: url('../img/bg/看癌.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img9{
+    background: url('../img/bg/肿瘤个性化.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img10{
+    background: url('../img/bg/见山.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img11{
+    background: url('../img/bg/年纪轻轻.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img12{
+    background: url('../img/bg/遗传.jpg');
+    height: 460px;
+    width: 100%;
+}
+.swiper-slide .img8{
+    background: url('../img/bg/首页易得好.jpg');
+    height: 460px;
+    width: 100%;
 }
 .swiper-slide .left{
     width: 30%;
