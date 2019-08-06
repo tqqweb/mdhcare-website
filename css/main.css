@@ -1301,7 +1301,7 @@ opacity: 1; /*结尾状态 不透明*/
     display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
 }
 .swiper-slide .img1{
-    background: url('../img/bg/boss.jpg') no-repeat;
+    background: url('../img/bg/boss.jpg');
     height: 460px;
     width: 100%;
 }
@@ -1311,85 +1311,494 @@ opacity: 1; /*结尾状态 不透明*/
     width: 100%;
 }
 .swiper-slide .swiper-word .tomorrow{
-    font-size: 18px;
+    font-size: 30px;
     color:white;
     position: absolute;
     top:36%;
-    left: 24%;
+    left: 20%;
 }
 .swiper-slide .swiper-word .lines{
-    width: 60px;
-    height: 3px;
+    width: 100px;
+    height: 4px;
     background:rgba(132,203,193,1); 
     position: absolute;
-    top:45%;
-    left: 24%;
+    top:48%;
+    left: 20%;
 }
 .swiper-slide .swiper-word .boss{
-    width: 80px;
-    height: 20px;
-    background:rgba(132,203,193,1); 
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
     color:white;
-    line-height: 20px;
+    background:rgba(132,203,193,1); 
     text-align: center;
+    line-height: 30px;
     position: absolute;
-    top:65%;
-    left: 24%;
+    letter-spacing: 0.1em;
+    top:72%;
+    left: 20%;
 }
 .swiper-slide .img2{
-    background: url('../img/bg/关于我们.jpg') no-repeat;
+    background: url('../img/bg/关于我们.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-about .about-enlish{
+    width: 400px;
+    font-size: 32px;
+    color:white;
+    position: absolute;
+    top:24%;
+    left: 24%;
+}
+.swiper-slide .swiper-about .about-us{
+    width: 80px;
+    font-size: 18px;
+    color:white;
+    position: absolute;
+    top:34%;
+    left: 24%;
 }
 .swiper-slide .img3{
     background: url('../img/bg/合伙人.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-city .city-people{
+    width: 400px;
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:28%;
+    left: 20%;
+}
+.swiper-slide .swiper-city .city-people .big{
+    font-size: 30px;
+}
+.swiper-slide .swiper-city .city-letter{
+    width: 100px;
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:38%;
+    left: 20%;
+}
+.swiper-slide .swiper-city .city-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:72%;
+    left: 20%;
+}
+.swiper-slide .swiper-city .city-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:48%;
+    left: 20%;
 }
 .swiper-slide .img4{
     background: url('../img/bg/合作机构.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-coop .coop-rative{
+    width: 100px;
+    font-size: 36px;
+    color:white;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:15%;
+    left: 20%;
+}
+.swiper-slide .swiper-coop .coop-inst{
+    width: 100px;
+    font-size: 36px;
+    color:white;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:25%;
+    left: 20%;
+}
+.swiper-slide .swiper-coop .coop-hezuo{
+    width: 200px;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:37%;
+    left: 20%;
 }
 .swiper-slide .img5{
     background: url('../img/bg/年纪轻轻.jpg');
-    height: 460px;
+    position: relative;
     width: 100%;
+}
+.swiper-slide .swiper-young .young-sudden{
+    width: 500px;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:32%;
+    left: 20%;
+}
+.swiper-slide .swiper-young .young-gene{
+    width: 500px;
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:42%;
+    left: 20%;
+}
+.swiper-slide .swiper-young .young-liens{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:52%;
+    left: 20.5%;
+}
+.swiper-slide .swiper-young .young-product{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:72%;
+    left: 20%;
 }
 .swiper-slide .img6{
     background: url('../img/bg/心血管.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-drug .drug-eat{
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: .1em;
+    position: absolute;
+    top:30%;
+    left: 20%;
+    color:white;
+}
+.swiper-slide .swiper-drug .drug-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:42%;
+    left: 20.5%;
+}
+.swiper-slide .swiper-drug .drug-cardiovascular{
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: .1em;
+    position: absolute;
+    top:45%;
+    left: 34%;
+    color:white;
+}
+.swiper-slide .swiper-drug .drug-product{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:75%;
+    left: 20.5%;
 }
 .swiper-slide .img7{
     background: url('../img/bg/渠道服务.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
 }
+.swiper-slide .swiper-service .service-ce{
+    width: 100px;
+    font-size: 30px;
+    letter-spacing: .1em;
+    position: absolute;
+    top:34%;
+    left: 20%;
+    color:white;
+}
+.swiper-slide .swiper-service .service-scene{
+    width: 500px;
+    font-size: 30px;
+    letter-spacing: .1em;
+    position: absolute;
+    top:44%;
+    left: 20%;
+    color:white;
+}
+.swiper-slide .swiper-service .service-liens{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:56%;
+    left: 20%;
+}
 .swiper-slide .img8{
-    background: url('../img/bg/看癌.jpg');
+    background: url('../img/bg/首页易得好.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-mdhcare .mdhcare-title{
+    position: absolute;
+    top:24%;
+    left:20%;
+    font-size: 30px;
+    letter-spacing: .1em;
+    color:white;
+}
+.swiper-slide .swiper-mdhcare .mdhcare-everyone{
+    position: absolute;
+    top:34%;
+    left:20%;
+    font-size: 30px;
+    letter-spacing: .1em;
+    color:white;
+}
+.swiper-slide .swiper-mdhcare .mdhcare-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:45%;
+    left: 20%;
+}
+.swiper-slide .swiper-mdhcare .mdhcare-letter{
+    position: absolute;
+    top:48%;
+    left:20%;
+    font-size: 30px;
+    letter-spacing: .1em;
+    color:white;
+}
+.swiper-slide .swiper-mdhcare .mdhcare-experience{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:75%;
+    left: 20.5%;
 }
 .swiper-slide .img9{
     background: url('../img/bg/肿瘤个性化.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-tumour .tumour-ge{
+    width: 500px;
+    letter-spacing: .1em;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    top:32%;
+    left: 20%;
+}
+.swiper-slide .swiper-tumour .tumour-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:48%;
+    left: 20%;
+}
+.swiper-slide .swiper-tumour .tumour-targeting{
+    width: 500px;
+    letter-spacing: .1em;
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    top:44%;
+    left: 35%;
+}
+.swiper-slide .swiper-tumour .tumour-product{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:75%;
+    left: 20.5%;
 }
 .swiper-slide .img10{
     background: url('../img/bg/见山.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
 }
+.swiper-slide .swiper-clinical .clinical-title{
+    position: absolute;
+    top:28%;
+    left: 20%;
+    color:white;
+    font-size: 30px;
+    letter-spacing: .1em;
+}
+.swiper-slide .swiper-clinical .clinical-letter{
+    position: absolute;
+    top:38%;
+    left: 20%;
+    color:white;
+    font-size: 30px;
+    letter-spacing: .1em;
+}
+.swiper-slide .swiper-clinical .clinical-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:48%;
+    left: 20%;
+}
+.swiper-slide .swiper-clinical .clinical-word{
+    position: absolute;
+    top:52%;
+    left: 20%;
+    color:white;
+    font-size: 18px;
+    letter-spacing: .1em;
+}
+.swiper-slide .swiper-clinical .clinical-product{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:75%;
+    left: 20.5%;
+}
 .swiper-slide .img11{
-    background: url('../img/bg/年纪轻轻.jpg');
+    background: url('../img/bg/看癌.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-cancer .cancer-title{
+    width: 500px;
+    position: absolute;
+    top:30%;
+    left: 20%;
+    letter-spacing: .1em;
+    font-size: 24px;
+    color: white;
+}
+.swiper-slide .swiper-cancer .cancer-title .big{
+    font-size: 36px;
+}
+.swiper-slide .swiper-cancer .cancer-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:42%;
+    left: 20%;
+}
+.swiper-slide .swiper-cancer .cancer-product{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:75%;
+    left: 20%;
 }
 .swiper-slide .img12{
     background: url('../img/bg/遗传.jpg');
+    position: relative;
     height: 460px;
     width: 100%;
+}
+.swiper-slide .swiper-inheritance .inheritance-title{
+    width: 550px;
+    position: absolute;
+    top:35%;
+    left: 20%;
+    letter-spacing: .1em;
+    font-size: 30px;
+    color: white;
+}
+.swiper-slide .swiper-inheritance .inheritance-lines{
+    width: 100px;
+    height: 4px;
+    background:rgba(132,203,193,1); 
+    font-size: 24px;
+    color:white;
+    position: absolute;
+    top:50%;
+    left: 20%;
+}
+.swiper-slide .swiper-inheritance .inheritance-product{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    background:rgba(132,203,193,1); 
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    letter-spacing: 0.1em;
+    top:80%;
+    left: 20%;
 }
 .swiper-slide .img8{
     background: url('../img/bg/首页易得好.jpg');

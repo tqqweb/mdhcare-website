@@ -40,8 +40,8 @@
             $(this).css({'background-image':'url(img/imgs/icon_left.png)'})
         })
         var mySwiper = new Swiper ('.swiper-container', {
-            // autoplay: true,
-            // loop : true,
+            autoplay: true,
+            loop : true,
             // 可选选项，自动滑动
             // 如果需要分页器
             pagination: {
