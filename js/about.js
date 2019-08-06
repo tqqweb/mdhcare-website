@@ -65,15 +65,9 @@ $(function () {
         }
     })
     $('.swiper-slide').mouseover(function () {
-        mySwiper[0].autoplay.stop()
+        mySwiper.autoplay.stop()
     })
     $('.swiper-slide').mouseout(function () {
-        mySwiper[0].autoplay.start();
-    })
-    $('.swiper-slide').mouseover(function () {
-        mySwiper[1].autoplay.stop()
-    })
-    $('.swiper-slide').mouseout(function () {
-        mySwiper[1].autoplay.start();
+        mySwiper.autoplay.start();
     })
 })

@@ -1066,7 +1066,6 @@ opacity: 1; /*结尾状态 不透明*/
 }
 
 .explain .oddnum{
-    width:82%;
     height:225px;
     background:rgba(132,203,193,1);
     border-radius:10px;
@@ -1077,7 +1076,6 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .explain .evennum{
     margin: 0 auto;
-    width:82%;
     height:225px;
     border:2px solid rgba(132,203,193,1);
     border-radius:10px;
@@ -1092,7 +1090,7 @@ opacity: 1; /*结尾状态 不透明*/
 .explain{
     margin-top: 20px;
     margin: 0 auto;
-    width: 900px; 
+    width: 940px; 
     display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
     display: -moz-box; /* 老版本语法: Firefox (buggy) */
     display: -ms-flexbox; /* 混合版本语法: IE 10 */
@@ -1121,6 +1119,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .explain li{
     width: 25%;
+    margin: 0 10px;
 }
 /* 关于我们 */
 .we{
