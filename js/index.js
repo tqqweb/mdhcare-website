@@ -20,6 +20,9 @@ $(function () {
         $('.gene-img3').show()
         $('.hover-img3').hide()
     })
+    // $('.img10').click(function (){
+    //     window.location.href = ''
+    // })
     $('.img-one').css('display','none')
     $('.img-two').css('display','none')
     $('.img-three').css('display','none')
@@ -37,5 +40,5 @@ $(function () {
 
 })
 
-var userAgentInfo = navigator.userAgent; 
-    console.log(userAgentInfo)
+// var userAgentInfo = navigator.userAgent; 
+//     console.log(userAgentInfo)

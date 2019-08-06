@@ -523,7 +523,7 @@ body {
 }
 @keyframes car{
     from{
-        left:250px;
+        left:100px;
     }
     to{
         left:720px;
@@ -1154,7 +1154,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .us .line{ 
     width: 250px; 
-    height: 1px;
+    height: 3px;
     background: #303030;
     border:1px solid #303030;
     position: absolute;
@@ -1669,6 +1669,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .img10{
     background: url('../img/bg/见山.jpg');
+    cursor: pointer;
     position: relative;
     height: 460px;
     width: 100%;
@@ -2510,4 +2511,24 @@ opacity: 1; /*结尾状态 不透明*/
     font-family:SourceHanSansSC-Light;
     font-weight:300;
     color:rgba(136,136,136,1);
+}
+.us .top-lines{
+    width: 185px;
+}
+.us-fa{
+    width: 350px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    font-family: SourceHanSansSC-Light;
+}
+.green-bottom{
+    width: 40px;
+    height: 4px;
+    background: #84CBC1;
+    margin:0 auto;
+    margin-top: 20px;
 }

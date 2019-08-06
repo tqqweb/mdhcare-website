@@ -105,6 +105,7 @@ $(function () {
     $('.gif-div2').css('display','none')
     $('.gif-div3').css('display','none')
     $('.gif-div4').css('display','none')
+    $('.gif-img2').fadeIn(2000);
     $('.gif-div2').fadeIn(4000);
     $('.gif-div3').fadeIn(15000);
     $('.gif-div4').fadeIn(20000);
