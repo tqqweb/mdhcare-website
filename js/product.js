@@ -72,35 +72,29 @@ $(function () {
         $('.icon-8').hide()
         $('.defult-8').show()
     })
-    $('.join').click(function () {
-        window.location.href='join.html';
+    $('.cooperation').click(function (){
+        window.location.href='services.html'
     })
-    $('.channel').click(function () {
-        window.location.href='channel.html';
+    $('.channel').click(function (){
+        window.location.href='channel.html'
     })
-    $('.cooperation').click(function () {
-        window.location.href = 'services.html'
+    $('.join').click(function (){
+        window.location.href='join.html'
     })
-    $('.index-cooperation').click(function () {
-        window.location.href = 'cooperation.html'
+    $('.img5').click(function () {
+        window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483915&idx=1&sn=f211083f6925ac2d2e60dc7650e78f97&chksm=fc6b5459cb1cdd4f9701feb153b5a9fa9223dd51cc815f1cb7d5e38d59be16b8e0fdf4f3a59f&mpshare=1&scene=1&srcid=0806efRUy1HUIpdIhr2UuEyd&sharer_sharetime=1565092234337&sharer_shareid=8d0a487254e1730c391eae6220b742dd&key=acb0d941f6b05235defe781c17f8e22922b6ddbeb713502b1a2cb37923de99616999584a67af6979028f0913a20387a4ad1609d7aa9e651b67deb6a0941347defaf121c55be1988a1b584e7d19eca71a&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g");
     })
-    $('.index-about').click(function () {
-        window.location.href = 'about.html'
+    $('.img11').click(function () {
+        window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483864&idx=1&sn=b18b89847fd6ccfef94c41af6c4b91fa&key=26d05b32e0df58c2fee131f6d7d9ef79e55b25b34bc23788a2e9c9e09f2bfd1471027d81d0e0e4c19b85a5e80d7c224d422912b23d5de87b0b9f265b3aef0515fd9f6d14c9c49217cd367e24cdf983e7&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g")
     })
-    $('.index-join').click(function () {
-        window.location.href = 'join.html'
+    $('.img9').click(function () {
+        window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483886&idx=1&sn=09f6dc0c3359f63f7039aab9e87270bc&chksm=fc6b57bccb1cdeaa226c5e9da388aecb906cb7e1ebc14a0de9e6b707252aa0719bf6fd7e9540&mpshare=1&scene=1&srcid=0806TM9zCXUSZETBNz76y9Qm&sharer_sharetime=1565092518123&sharer_shareid=8d0a487254e1730c391eae6220b742dd&key=acb0d941f6b05235ed0701fca4fe2b5b534b374dbb428122ec3372d430d57bf1fd45ecdaf140a413de9b57930b789dfd08998f6f1f3fe42054db29d536e97ade694c0bf4fa591a0a7cbb905a816c437e&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g")
     })
-    $('.index-mdh').click(function () {
-        window.location.href = 'MDHcare.html'
+    $('.img6').click(function () {
+        window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483925&idx=1&sn=d706eef3f83e4e5d6882438e6fd3fbb0&chksm=fc6b5447cb1cdd51a99083ffa82421c30ec869849113285919ff510095a389e0477983d2ef78&mpshare=1&scene=1&srcid=0806zCdojEdp9dW5lXVjsuXu&sharer_sharetime=1565092564057&sharer_shareid=8d0a487254e1730c391eae6220b742dd&key=cc38c86ef34f6d11017adcc0e7b026bcae4dd58a4bcde1989345148404287840ab71d5cd709ad9bf78da3968cfbdfe2701186551da44f36defb8457139a9349d2f709f045222cd7fcb7f765c25a9b057&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g")
     })
-    $('.index-product').click(function () {
-        window.location.href = 'product.html'
-    })
-    $('.index-channel').click(function () {
-        window.location.href = 'channel.html'
-    })
-    $('.index-index').click(function () {
-        window.location.href = 'index.html'
+    $('.img12').click(function () {
+        window.open('https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483864&idx=2&sn=70c649ff8ed94ada64b0a7c6396c0d61&chksm=fc6b578acb1cde9c315dcfd0e139ae0fd9b24df4afe3b9a1affda206cc2e42ba1f25aab248d8&mpshare=1&scene=1&srcid=0806mWZCeLCT5BrvqYF4pC5H&sharer_sharetime=1565092688322&sharer_shareid=8d0a487254e1730c391eae6220b742dd&key=81589cfa6ea63caa276714c05a626e2f5dc5e3601f5bbf1519061b003479ac19d00c5c408cbc6e7dcc0d20ad4c8155f904df8cb976ad49472e8bef1b2c85043ac8fab36c1d5ba81ddaab0a208555a64f&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g')
     })
     $('.gif-div2').css('display','none')
     $('.gif-div3').css('display','none')

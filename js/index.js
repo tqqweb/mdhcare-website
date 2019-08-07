@@ -20,9 +20,15 @@ $(function () {
         $('.gene-img3').show()
         $('.hover-img3').hide()
     })
-    // $('.img10').click(function (){
-    //     window.location.href = ''
-    // })
+    $('.img8').click(function (){
+        window.location.href = 'about.html'
+    })
+    $('.img10').click(function (){
+        window.location.href = 'mdhcare.html'
+    })
+    $('.img3').click(function (){
+        window.location.href = 'services.html'
+    })
     $('.img-one').css('display','none')
     $('.img-two').css('display','none')
     $('.img-three').css('display','none')

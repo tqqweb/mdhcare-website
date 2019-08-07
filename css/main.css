@@ -1290,6 +1290,7 @@ opacity: 1; /*结尾状态 不透明*/
 
 } 
 .swiper-slide{
+    cursor: pointer;
     /* background: url('../img/bg/boss.jpg'); */
     height: 460px;
     width: 100%;

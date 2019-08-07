@@ -10,35 +10,14 @@ $(function () {
     },function(){
         $('.select').hide()
     })
-    $('.join').click(function () {
-        window.location.href='join.html';
+    $('.cooperation').click(function (){
+        window.location.href='services.html'
     })
-    $('.channel').click(function () {
-        window.location.href='channel.html';
+    $('.channel').click(function (){
+        window.location.href='channel.html'
     })
-    $('.cooperation').click(function () {
-        window.location.href = 'service.html'
-    })
-    $('.index-cooperation').click(function () {
-        window.location.href = 'cooperation.html'
-    })
-    $('.index-about').click(function () {
-        window.location.href = 'about.html'
-    })
-    $('.index-join').click(function () {
-        window.location.href = 'join.html'
-    })
-    $('.index-mdh').click(function () {
-        window.location.href = 'MDHcare.html'
-    })
-    $('.index-product').click(function () {
-        window.location.href = 'product.html'
-    })
-    $('.index-channel').click(function () {
-        window.location.href = 'channel.html'
-    })
-    $('.index-index').click(function () {
-        window.location.href = 'index.html'
+    $('.join').click(function (){
+        window.location.href='join.html'
     })
     $('.swiper-button-prev').hover(function () {
         $(this).css({'background-image':'url(img/imgs/icon_arrow_left.png)'})
