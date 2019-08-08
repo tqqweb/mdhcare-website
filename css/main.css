@@ -1161,6 +1161,14 @@ opacity: 1; /*结尾状态 不透明*/
     position: absolute;
     top:0;
 }
+.us .line-ones{
+    width: 200px; 
+    height: 4px;
+    background: #303030;
+    border:1px solid #303030;
+    position: absolute;
+    top:0;
+}
 .aboutus{
     line-height: 0;
     font-size: 24px;
@@ -1413,7 +1421,7 @@ opacity: 1; /*结尾状态 不透明*/
     font-size: 24px;
     color:white;
     position: absolute;
-    top:48%;
+    top:38%;
     left: 20%;
 }
 .swiper-slide .img4{

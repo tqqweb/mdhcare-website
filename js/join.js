@@ -26,6 +26,7 @@ $(function () {
     })
     $('.many').click(function () {
         $('.position-boss').show();
+        $('.recruit-btn').hide()
     })
     $('.join').click(function () {
         window.location.href='join.html';

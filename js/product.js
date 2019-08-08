@@ -84,9 +84,9 @@ $(function () {
     $('.join').click(function (){
         window.location.href='join.html'
     })
-    $('.img5').click(function () {
-        window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483915&idx=1&sn=f211083f6925ac2d2e60dc7650e78f97&chksm=fc6b5459cb1cdd4f9701feb153b5a9fa9223dd51cc815f1cb7d5e38d59be16b8e0fdf4f3a59f&mpshare=1&scene=1&srcid=0806efRUy1HUIpdIhr2UuEyd&sharer_sharetime=1565092234337&sharer_shareid=8d0a487254e1730c391eae6220b742dd&key=acb0d941f6b05235defe781c17f8e22922b6ddbeb713502b1a2cb37923de99616999584a67af6979028f0913a20387a4ad1609d7aa9e651b67deb6a0941347defaf121c55be1988a1b584e7d19eca71a&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g");
-    })
+    // $('.img5').click(function () {
+    //     window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483915&idx=1&sn=f211083f6925ac2d2e60dc7650e78f97&chksm=fc6b5459cb1cdd4f9701feb153b5a9fa9223dd51cc815f1cb7d5e38d59be16b8e0fdf4f3a59f&mpshare=1&scene=1&srcid=0806efRUy1HUIpdIhr2UuEyd&sharer_sharetime=1565092234337&sharer_shareid=8d0a487254e1730c391eae6220b742dd&key=acb0d941f6b05235defe781c17f8e22922b6ddbeb713502b1a2cb37923de99616999584a67af6979028f0913a20387a4ad1609d7aa9e651b67deb6a0941347defaf121c55be1988a1b584e7d19eca71a&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g");
+    // })
     $('.img11').click(function () {
         window.open("https://mp.weixin.qq.com/s?__biz=MzU2MjM5ODAxMw==&mid=2247483864&idx=1&sn=b18b89847fd6ccfef94c41af6c4b91fa&key=26d05b32e0df58c2fee131f6d7d9ef79e55b25b34bc23788a2e9c9e09f2bfd1471027d81d0e0e4c19b85a5e80d7c224d422912b23d5de87b0b9f265b3aef0515fd9f6d14c9c49217cd367e24cdf983e7&ascene=1&uin=MjIzNjIwODYzNw%3D%3D&devicetype=Windows+10&version=62060834&lang=zh_CN&pass_ticket=jPf%2BXJwtQs%2Bj5Blbh6Y3v%2FRbBaXRU9k5WI5umjoGAtAE83MRS5xi1fw4hGeeH94g")
     })
