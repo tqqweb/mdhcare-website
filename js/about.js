@@ -1,14 +1,14 @@
 $(function () {
-    $('.select').hide()
-    $('.nav-link-ablout').hover(function(){
-        $('.select').show()
+    $('.postions').hide()
+    $('.nav-item-about').hover(function(){
+        $('.postions').show()
     },function(){
-        $('.select').hide()
+        $('.postions').hide()
     })
-    $('.select').hover(function (){
-        $('.select').show()
+    $('.postions').hover(function (){
+        $('.postions').show()
     },function(){
-        $('.select').hide()
+        $('.postions').hide()
     })
     $('.cooperation').click(function (){
         window.location.href='services.html'

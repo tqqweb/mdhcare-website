@@ -72,6 +72,9 @@ $(function () {
         $('.icon-8').hide()
         $('.defult-8').show()
     })
+    $('.city-btn').click(function () {
+        $.scrollTo('.partne-img',1500)
+    })
     $('.cooperation').click(function (){
         window.location.href='services.html'
     })

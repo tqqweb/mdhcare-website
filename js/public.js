@@ -1,33 +1,29 @@
        $(function () {
+        $('.postions').css('opacity',0)
+        $('.nav-item-about').hover(function(){
+            $('.postions').css('opacity',1)
+        },function(){
+            $('.postions').css('opacity',0)
+        })
+        $('.postions').hover(function (){
+            $('.postions').css('opacity',1)
+        },function(){
+            $('.postions').css('opacity',0)
+        })
+        $('.opportunity').click(function () {
+            window.location.href = 'join.html'
+        })
         $('.join').click(function () {
-            window.location.href='join.html';
+            window.location.href='cooperation.html';
+        })
+        $('.introduce').click(function () {
+            window.location.href='about.html';
         })
         $('.channel').click(function () {
             window.location.href='channel.html';
         })
         $('.cooperation').click(function () {
             window.location.href = 'services.html'
-        })
-        $('.index-cooperation').click(function () {
-            window.location.href = 'cooperation.html'
-        })
-        $('.index-about').click(function () {
-            window.location.href = 'about.html'
-        })
-        $('.index-join').click(function () {
-            window.location.href = 'join.html'
-        })
-        $('.index-mdh').click(function () {
-            window.location.href = 'MDHcare.html'
-        })
-        $('.index-product').click(function () {
-            window.location.href = 'product.html'
-        })
-        $('.index-channel').click(function () {
-            window.location.href = 'channel.html'
-        })
-        $('.index-index').click(function () {
-            window.location.href = 'index.html'
         })
         $('.swiper-button-prev').hover(function () {
             $(this).css({'background-image':'url(img/imgs/icon_arrow_left.png)'})

@@ -81,6 +81,7 @@ body {
     width: 125px;
 }
 .nav-list{
+    position: relative;
     display: flex;
 }
 .nav .right-info{
@@ -406,7 +407,7 @@ body {
     width: 80px;
     height: 80px;
 }
-.footer .channel,.footer .cooperation,.footer .join{
+.footer .channel,.footer .cooperation,.footer .join,.introduce,.opportunity{
     cursor: pointer;
 }
 .footer .container {
@@ -1154,7 +1155,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .us .line{ 
     width: 250px; 
-    height: 3px;
+    height: 4px;
     background: #303030;
     border:1px solid #303030;
     position: absolute;
@@ -1311,6 +1312,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 100%;
 }
 .swiper-slide .swiper-word .tomorrow{
+    font-family: "Source Han Sans CN";
     font-size: 30px;
     color:white;
     position: absolute;
@@ -1327,6 +1329,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .swiper-word .boss{
     width: 100px;
+    font-family: "Source Han Sans CN";
     height: 30px;
     font-size: 20px;
     color:white;
@@ -1348,6 +1351,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 400px;
     font-size: 32px;
     color:white;
+    font-family: "Helvetica Neue";
     position: absolute;
     top:24%;
     left: 24%;
@@ -1356,6 +1360,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 80px;
     font-size: 18px;
     color:white;
+    font-family: "Source Han Sans CN";
     position: absolute;
     top:34%;
     left: 24%;
@@ -1368,6 +1373,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .swiper-city .city-people{
     width: 400px;
+    font-family: "Source Han Sans CN";
     font-size: 24px;
     color:white;
     position: absolute;
@@ -1381,6 +1387,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 100px;
     font-size: 24px;
     color:white;
+    font-family: "Helvetica Neue";
     position: absolute;
     top:38%;
     left: 20%;
@@ -1395,6 +1402,7 @@ opacity: 1; /*结尾状态 不透明*/
     line-height: 30px;
     position: absolute;
     letter-spacing: 0.1em;
+    font-family: "Source Han Sans CN";
     top:72%;
     left: 20%;
 }
@@ -1419,6 +1427,7 @@ opacity: 1; /*结尾状态 不透明*/
     font-size: 36px;
     color:white;
     position: absolute;
+    font-family: "Helvetica Neue";
     letter-spacing: 0.1em;
     top:15%;
     left: 20%;
@@ -1427,6 +1436,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 100px;
     font-size: 36px;
     color:white;
+    font-family: "Helvetica Neue";
     position: absolute;
     letter-spacing: 0.1em;
     top:25%;
@@ -1438,6 +1448,7 @@ opacity: 1; /*结尾状态 不透明*/
     color:white;
     position: absolute;
     letter-spacing: 0.1em;
+    font-family: "Source Han Sans CN";
     top:37%;
     left: 20%;
 }
@@ -1450,6 +1461,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 500px;
     font-size: 30px;
     color:white;
+    font-family: "Source Han Sans CN";
     position: absolute;
     letter-spacing: 0.1em;
     top:32%;
@@ -1458,6 +1470,7 @@ opacity: 1; /*结尾状态 不透明*/
 .swiper-slide .swiper-young .young-gene{
     width: 500px;
     font-size: 20px;
+    font-family: "Source Han Sans CN";
     color:white;
     position: absolute;
     letter-spacing: 0.1em;
@@ -1479,6 +1492,7 @@ opacity: 1; /*结尾状态 不透明*/
     height: 30px;
     font-size: 20px;
     color:white;
+    font-family: "Source Han Sans CN";
     background:rgba(132,203,193,1); 
     text-align: center;
     line-height: 30px;
@@ -1495,6 +1509,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .swiper-drug .drug-eat{
     width: 400px;
+    font-family: "Source Han Sans CN";
     font-size: 30px;
     letter-spacing: .1em;
     position: absolute;
@@ -1515,6 +1530,7 @@ opacity: 1; /*结尾状态 不透明*/
 .swiper-slide .swiper-drug .drug-cardiovascular{
     width: 400px;
     font-size: 30px;
+    font-family: "Source Han Sans CN";
     letter-spacing: .1em;
     position: absolute;
     top:45%;
@@ -1526,6 +1542,7 @@ opacity: 1; /*结尾状态 不透明*/
     height: 30px;
     font-size: 20px;
     color:white;
+    font-family: "Source Han Sans CN";
     background:rgba(132,203,193,1); 
     text-align: center;
     line-height: 30px;
@@ -1545,6 +1562,7 @@ opacity: 1; /*结尾状态 不透明*/
     font-size: 30px;
     letter-spacing: .1em;
     position: absolute;
+    font-family: "Helvetica Neue";
     top:34%;
     left: 20%;
     color:white;
@@ -1553,6 +1571,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 500px;
     font-size: 30px;
     letter-spacing: .1em;
+    font-family: "Source Han Sans CN";
     position: absolute;
     top:44%;
     left: 20%;
@@ -1576,6 +1595,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .swiper-mdhcare .mdhcare-title{
     position: absolute;
+    font-family:"Source Han Sans CN";
     top:24%;
     left:20%;
     font-size: 30px;
@@ -1587,6 +1607,7 @@ opacity: 1; /*结尾状态 不透明*/
     top:34%;
     left:20%;
     font-size: 30px;
+    font-family:" Source Han Sans CN";
     letter-spacing: .1em;
     color:white;
 }
@@ -1604,6 +1625,7 @@ opacity: 1; /*结尾状态 不透明*/
     position: absolute;
     top:48%;
     left:20%;
+    font-family: "Helvetica Neue";
     font-size: 30px;
     letter-spacing: .1em;
     color:white;
@@ -1612,6 +1634,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 100px;
     height: 30px;
     font-size: 20px;
+    font-family:" Source Han Sans CN";
     color:white;
     background:rgba(132,203,193,1); 
     text-align: center;
@@ -1632,6 +1655,7 @@ opacity: 1; /*结尾状态 不透明*/
     letter-spacing: .1em;
     font-size: 30px;
     color:white;
+    font-family: "Source Han Sans CN";
     position: absolute;
     top:32%;
     left: 20%;
@@ -1650,6 +1674,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 500px;
     letter-spacing: .1em;
     font-size: 30px;
+    font-family: "Source Han Sans CN";
     color:white;
     position: absolute;
     top:44%;
@@ -1663,6 +1688,7 @@ opacity: 1; /*结尾状态 不透明*/
     background:rgba(132,203,193,1); 
     text-align: center;
     line-height: 30px;
+    font-family: "Source Han Sans CN";
     position: absolute;
     letter-spacing: 0.1em;
     top:75%;
@@ -1679,6 +1705,7 @@ opacity: 1; /*结尾状态 不透明*/
     position: absolute;
     top:28%;
     left: 20%;
+    font-family:" Source Han Sans CN";
     color:white;
     font-size: 30px;
     letter-spacing: .1em;
@@ -1688,6 +1715,7 @@ opacity: 1; /*结尾状态 不透明*/
     top:38%;
     left: 20%;
     color:white;
+    font-family:"Helvetica Neue";
     font-size: 30px;
     letter-spacing: .1em;
 }
@@ -1705,6 +1733,7 @@ opacity: 1; /*结尾状态 不透明*/
     position: absolute;
     top:52%;
     left: 20%;
+    font-family:" Source Han Sans CN";
     color:white;
     font-size: 18px;
     letter-spacing: .1em;
@@ -1714,6 +1743,7 @@ opacity: 1; /*结尾状态 不透明*/
     height: 30px;
     font-size: 20px;
     color:white;
+    font-family:" Source Han Sans CN";
     background:rgba(132,203,193,1); 
     text-align: center;
     line-height: 30px;
@@ -1730,6 +1760,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .swiper-cancer .cancer-title{
     width: 500px;
+    font-family: "Source Han Sans CN";
     position: absolute;
     top:30%;
     left: 20%;
@@ -1739,6 +1770,7 @@ opacity: 1; /*结尾状态 不透明*/
 }
 .swiper-slide .swiper-cancer .cancer-title .big{
     font-size: 36px;
+    font-family: "Source Han Sans CN";
 }
 .swiper-slide .swiper-cancer .cancer-lines{
     width: 100px;
@@ -1753,6 +1785,7 @@ opacity: 1; /*结尾状态 不透明*/
 .swiper-slide .swiper-cancer .cancer-product{
     width: 100px;
     height: 30px;
+    font-family: "Source Han Sans CN";
     font-size: 20px;
     color:white;
     background:rgba(132,203,193,1); 
@@ -1773,6 +1806,7 @@ opacity: 1; /*结尾状态 不透明*/
     width: 550px;
     position: absolute;
     top:35%;
+    font-family: "Source Han Sans CN";
     left: 20%;
     letter-spacing: .1em;
     font-size: 30px;
@@ -1794,6 +1828,7 @@ opacity: 1; /*结尾状态 不透明*/
     font-size: 20px;
     color:white;
     background:rgba(132,203,193,1); 
+    font-family: "Source Han Sans CN";
     text-align: center;
     line-height: 30px;
     position: absolute;
@@ -1944,7 +1979,7 @@ opacity: 1; /*结尾状态 不透明*/
     position: absolute;
     top:40%;
     left: 2%;
-    width:235px;
+    width:260px;
     height:36px;
     font-size:16px;
     font-family:SourceHanSansSC-Light;
@@ -2532,4 +2567,23 @@ opacity: 1; /*结尾状态 不透明*/
     background: #84CBC1;
     margin:0 auto;
     margin-top: 20px;
+}
+.postions{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:85%; 
+    right: 23.5%;
+}
+.postions a{
+    width: 70px;
+    color:rgb(103, 103, 105);
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    font-size: 12px;
+}
+.postions a:hover{
+    background: #ccc;
+    color:#009999;
 }
